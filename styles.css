@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed,
+    url("https://images.pexels.com/photos/7526879/pexels-photo-7526879.jpeg?cs=srgb&dl=pexels-luis-leon-7526879.jpg&fm=jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.header {
+    background-color: #041014;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 150px;
+    padding: 30px;
+}
+
+.score-info, .score-message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0px 0px 5px black,
+    0px 0px 20px black,
+    0px 0px 40px white;
+}
+
+.playerScore, .cpuScore {
+    color: white;
+    justify-content: center;
+    text-shadow: 0px 0px 5px black,
+    0px 0px 20px black,
+    0px 0px 40px white;
+}
+
+.score-keeper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.game button {
+
+    color: white;
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 25px 50px 25px 50px;
+    background-color: black;
+
+}
+
+.computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.final-score {
+    display: flex;
+    justify-content: center;;
+}
+
+.result {
+    color:white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
