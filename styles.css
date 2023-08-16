@@ -2,6 +2,11 @@ body {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed,
     url("https://images.pexels.com/photos/7526879/pexels-photo-7526879.jpeg?cs=srgb&dl=pexels-luis-leon-7526879.jpg&fm=jpg") no-repeat center center fixed;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes at least the viewport height */
 }
 .header {
     background-color: #041014;
@@ -11,9 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: -10px;
-    margin-bottom: 150px;
-    padding: 30px;
+    padding: 50px;
+}
+
+.score-header {
+    margin-top: auto;
 }
 
 .score-info, .score-message {
@@ -25,6 +32,13 @@ body {
     0px 0px 40px white;
 }
 
+.score-keeper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .playerScore, .cpuScore {
     color: white;
     justify-content: center;
@@ -33,12 +47,6 @@ body {
     0px 0px 40px white;
 }
 
-.score-keeper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
 .game {
     display: flex;
     justify-content: center;
@@ -74,5 +82,8 @@ body {
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
+    margin-top: auto;
+    height: 50px;
 }
